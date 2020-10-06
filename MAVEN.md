@@ -5,10 +5,15 @@ Understand the interest of using MAVEN in a java project
 
 ## Step 1: Create a minimal app
 Create a java package named com.mycompany.app
+
 Inside this package create a class called App.java
+
 Inside the main method, output the string "Hello World!" to the console
+
 Compile the code
+
 Package the code as a jar named my-app.jar
+
 Run the program
 
 ## Step 2: Test the minimal app
