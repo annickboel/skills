@@ -22,6 +22,37 @@ Using JUnit, write a test to verify the app is working as expected
 ## Step 3: Install Maven 3.6.3
 Ensure Maven is successfully installed running the command mvn --version.
 
+## Step 4: Create a MAVEN project  
+Create a directory called my-app
+
+Inside this directory create a MAVEN project using mvn archetype:generate
+
+Expliquez ce qui a été créé par MAVEN :	
+
+- Arborescence pour le code	
+
+- Arborescence pour les tests	
+
+- pom.xml
+
+### Step 5: Utiliser Maven 
+
+Reporter le code de l'application au sein de l'arborscence MAVEN 
+
+Reporter le code du test au sein de l'arborescence MAVEN
+
+Lancer la commande MAVEN qui permet de compiler le code Java
+
+Lancer la commande MAVEN qui permet de créer un livrable sous forme de jar
+
+Une fois le livrable constitué, lancer le programme
+
+Répondre à la question: Quel est l'intérêt d'utiliser MAVEN?
+
+
+
+
+
 
 ## Resources
 ### https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
