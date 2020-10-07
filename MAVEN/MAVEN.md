@@ -58,12 +58,12 @@ Répondre à la question: Quel est l'intérêt d'utiliser MAVEN?
 > 
 > 1. Create a new package **com.mycompany.maths**.
 > 2. Inside this package  create a class called **Operations**.
-> 3. The Operations class must Implement the following methods:
-> 	- public int add(int a, int b);
-> 	- public int sub(int a, int b);
-> 	- public int mul(int a, int b);
-> 	- public int div(int a, int b);
-> 	- public int mod(int a, int b);
+> 3. The **Operations** class must Implement the following methods:
+> 	- ***public int add(int a, int b);***
+> 	- ***public int sub(int a, int b);***
+> 	- ***public int mul(int a, int b);***
+> 	- ***public int div(int a, int b);***
+> 	- ***public int mod(int a, int b);***
 > 4. Write Junit tests for the Operations class 
 
 
