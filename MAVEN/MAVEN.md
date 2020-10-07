@@ -40,30 +40,26 @@ Expliquez ce qui a été créé par MAVEN :
 
 - pom.xml
 
-### Step 5: Utiliser Maven 
+> ### Step 5: Utiliser Maven 
+>
+> 1. Reporter le code de l'application au sein de l'arborscence MAVEN 
+> 2. Reporter le code du test au sein de l'arborescence MAVEN
+> 3. Lancer la commande MAVEN qui permet de compiler le code Java
+> 4. Lancer la commande MAVEN qui permet de créer un livrable sous forme de jar
+> 5. Une fois le livrable constitué, lancer le programme
+> 6. Quel est l'intérêt d'utiliser MAVEN?
 
-Reporter le code de l'application au sein de l'arborscence MAVEN 
-
-Reporter le code du test au sein de l'arborescence MAVEN
-
-Lancer la commande MAVEN qui permet de compiler le code Java
-
-Lancer la commande MAVEN qui permet de créer un livrable sous forme de jar
-
-Une fois le livrable constitué, lancer le programme
-
-Répondre à la question: Quel est l'intérêt d'utiliser MAVEN?
 
 > ### Step 6: Write JUnit tests
 > 
 > 1. Create a new package **com.mycompany.maths**.
 > 2. Inside this package  create a class called **Operations**.
 > 3. The **Operations** class must Implement the following methods:
-> 	- ***public int add(int a, int b);***
-> 	- ***public int sub(int a, int b);***
-> 	- ***public int mul(int a, int b);***
-> 	- ***public int div(int a, int b);***
-> 	- ***public int mod(int a, int b);***
+> 	- *public int add(int a, int b);*
+> 	- *public int sub(int a, int b);*
+> 	- *public int mul(int a, int b);*
+> 	- *public int div(int a, int b);*
+> 	- *public int mod(int a, int b);*
 > 4. Write Junit tests for the Operations class 
 
 
