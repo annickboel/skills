@@ -58,7 +58,11 @@
 >
 > 1. Add a dependency on log4J inside the pom.xml
 > 2. Create a logging.properties file. The file must be a Maven resource
-> 3. Add info message for each method in the Operations class
+> 3. Inside the logging.properties define stuff to log to the console
+> 4. Add info message for each method in the Operations class
+> 5. Package the program using Maven
+> 6. Check the logging is working as expected
+
 
 
 
