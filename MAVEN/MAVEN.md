@@ -54,6 +54,11 @@
 > 4. Write Junit tests for the Operations class 
 
 
+> ### Step 7: Use third party libraries in a Java project
+>
+> 1. Add a dependency on log4J inside the pom.xml
+> 2. Create a logging.properties file. The file must be a Maven resource
+> 3. Add info message for each method in the Operations class
 
 
 
