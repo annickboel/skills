@@ -1,53 +1,44 @@
 # MAVEN
-## Objectives:
+> ## Objectives:
+> 
+> 1. Understand the interest of using MAVEN in a java project.
+> 2. Write JUnit test cases.
+> 3. Use third party librairies in a Java project
 
-1. Understand the interest of using MAVEN in a java project.
-2. Write JUnit test cases.
-3. Use third party librairies in a Java project
+> ## Step 1: Create a minimal app
+> 
+> 1. Create a java package named ***com.mycompany.app***
+> 2. Inside this package create a class called ***App.java***
+> 3. Inside the main method, output the string "Hello World!" to the console
+> 4. Compile the code
+> 5. Package the code as a jar named my-app.jar
+> 6. Run the program
 
+> ## Step 2: Test the minimal app
 
+> Using JUnit, write a test to verify the app is working as expected
 
-## Step 1: Create a minimal app
+> ## Step 3: Install Maven 3.x
+>
+> 1. Install Maven
+> 2. Verify that Maven is successfully installed
 
-Create a java package named com.mycompany.app.
-
-Inside this package create a class called App.java
-
-Inside the main method, output the string "Hello World!" to the console
-
-Compile the code
-
-Package the code as a jar named my-app.jar
-
-Run the program
-
-## Step 2: Test the minimal app
-Using JUnit, write a test to verify the app is working as expected
-
-## Step 3: Install Maven 3.6.3
-Ensure Maven is successfully installed running the command mvn --version.
-
-## Step 4: Create a MAVEN project  
-Create a directory called my-app
-
-Inside this directory create a MAVEN project using mvn archetype:generate
-
-Expliquez ce qui a été créé par MAVEN :	
-
-- Arborescence pour le code	
-
-- Arborescence pour les tests	
-
-- pom.xml
+> ## Step 4: Create a MAVEN project  
+> 
+> 1. Create a directory called ***my-app***
+> 2. Inside this directory create a Maven project using ***mvn archetype:generate***
+> 3. Explain what has been generated
 
 > ### Step 5: Utiliser Maven 
 >
-> 1. Reporter le code de l'application au sein de l'arborscence MAVEN 
-> 2. Reporter le code du test au sein de l'arborescence MAVEN
-> 3. Lancer la commande MAVEN qui permet de compiler le code Java
-> 4. Lancer la commande MAVEN qui permet de créer un livrable sous forme de jar
-> 5. Une fois le livrable constitué, lancer le programme
-> 6. Quel est l'intérêt d'utiliser MAVEN?
+> 1. Put the application code in the right directory
+> 2. Put the test code in the right directory
+> 3. Use the Maven command to compile the project
+> 4. Use the Maven command to test the project
+> 5. Use the Maven command to package the project
+> 6. Use the Maven command to install the project
+> 7. Run the java program
+> 8. IYO, why is a good thing to use Maven in a Java project?
 
 
 > ### Step 6: Write JUnit tests
