@@ -2,14 +2,14 @@
 > ## Objectives:
 > 
 > 1. Understand the concept of SPA
-> 2. Write JUnit test cases.
+> 2. Bootstrap a SPA application with Vue
 > 3. Use third party librairies in a Java project
 
 > ## Step 1: Bootstrap a SPA application
 > 
 > 1. Create a html page called **index.htm**
-> 2. Insert a div with id app
-> 3. Insert the script to include the Vue.js
+> 2. Insert a **div** with id **app**
+> 3. Insert the script to include the Vue.js framework
 > 4. Insert a script to create a **Vue instance** called app, to **handle the app div**
 > 5. Inside this script, defined 5 types of data:
 >  -  String
@@ -19,9 +19,11 @@
 >  -  object 
 > 6. Display the data in the app div
 
-> ## Step 2: Test the minimal app
+> ## Step 2: Define and use computed data
 
-> Using JUnit, write a test to verify the app is working as expected
+> 1. To handle a ecommerce cart, define the price of 3 products in the data section.
+> 2. Define a computed data called **totalAmount**. The function will compute total price for items in the cart
+> 3. Display the cart 
 
 > ## Step 3: Install Maven 3.x
 >
