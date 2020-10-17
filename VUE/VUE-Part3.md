@@ -9,8 +9,8 @@
 >  > **[EPIC] Blog feature**.  
 >  > A Blog feature will be added in the site.
 >
->  > The **[EPIC] Blog feature** is described with the following **User stories**:  
->  > [User story]: Provide a conception document 
+>  > The **[EPIC] Blog feature** is described like this:  
+>  > [User story]: Provide a conception document   
 >  > [User story]: Add a Blog link in the navigation bar  
 >  > [User story]: Implement the blog layout  
 >  > [User story]: Display a list of most recenty published post  
@@ -31,12 +31,12 @@
 >  > 
 >  > **ID:**1  
 >  > **Type:** Non-functional
->  > **Description:**
->     - **As a** member of the **Development team**
->     - **I want to** rely on a conception document
->  	  - **So that** every member of the team could share the vision of what has to be developped
->   
->   - **Business rules:**
+>  > **Description:**  
+>  >  - **As a** member of the **Development team**  
+>  >  - **I want to** rely on a conception document  
+>  >  - **So that** every member of the team could share the vision of what has to be developped  
+>  >
+>  > **Business rules:**
 >     1. The Blog geature will be accessible by a link in the navigation bar
 >     2. The Blog will use the usual layout for a blog (3 sections: header, left and right)
 >     3. The left part of the Blog page, will display a list of the most recently published posts.
