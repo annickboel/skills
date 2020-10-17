@@ -5,7 +5,10 @@
 
 > ## Step 1: Understand SCRUM concepts (Product Owner, Product Backlog, EPIC, Sprint Backlog)
 >
-> The **Product Owner** has gathered requirements for a new **Blog feature** and added the **EPIC Blog Feature** in the **Product Backlog**.   
+> The **Product Owner** has gathered requirements for a new **Blog feature** and added the **EPIC Blog Feature** in the **Product Backlog**.
+>     [EPIC Blog feature]
+>       A Blog feature will be added in the site
+
 >  > **[EPIC] Blog feature**.  
 >  > A Blog feature will be added in the site.
 >
