@@ -10,7 +10,7 @@
 >  > A Blog feature will be added in the site.
 >
 >  > The **[EPIC] Blog feature** is described with the following **User stories**:  
->  > [User story]: Provide a conception document for the Blog feature  
+>  > [User story]: Provide a conception document 
 >  > [User story]: Add a Blog link in the navigation bar  
 >  > [User story]: Implement the blog layout  
 >  > [User story]: Display a list of most recenty published post  
@@ -26,14 +26,12 @@
 >   - When is it possible to pass an EPIC from the **Product BackLog** to the **Sprint Backlog**?
 
 > ## Step 2: Understand the concept of **User story** 
-> The **[User story] Provide a conception document for the Blog feature** has been decribed by the **Product Owner** like this:
-> 
->   **[User story] Provide a conception document for the Blog feature**
->
->   - **ID:**1  
->   - **Type:** Non-functional
->   
->   - **Description:**
+> The **[User story] Provide a conception document** has been decribed by the **Product Owner** like this:
+>  > **[User story] Provide a conception document**
+>  > 
+>  > **ID:**1  
+>  > **Type:** Non-functional
+>  > **Description:**
 >     - **As a** member of the **Development team**
 >     - **I want to** rely on a conception document
 >  	  - **So that** every member of the team could share the vision of what has to be developped
