@@ -68,4 +68,8 @@
 > ## Step 4: Task to do
 >    
 > As as member of the **Development Team**, you've been affected to the task **Provide a conception document** by the **Scrum Master**  
+> 1. Work on this Task
+> 2. Ensure that the **Acceptance tests**  are fully satisfied
+
+
 
