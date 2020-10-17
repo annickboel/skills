@@ -19,10 +19,6 @@
 >       [User story]: Provide a conception document  
 >
 > 1. Answer the following questions:  
->     [EPIC Blog feature]
-
-  
-
 >   - What's the role of the **Product Owner**?
 >   - What's a **Product Backlog**?
 >   - What's the relation between the **Product Backlog** and the **Epics**?
@@ -30,9 +26,10 @@
 >   - When is it possible to pass an EPIC from the **Product BackLog** to the **Sprint Backlog**?
 
 > ## Step 2: Understand the concept of **User story** 
->  > **[User story] Provide a conception document**  
->  > 
->  > **ID:** 1  
+> 
+>    **[User story] Provide a conception document**  
+>    
+>    **ID:** 1  
 >  > **Type:** Non-functional  
 >  > **Description:**  
 >  >  > **As a** member of the **Development team**  
