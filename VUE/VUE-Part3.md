@@ -65,11 +65,12 @@
 > 1. Answer the question: Why do the **Product Owner** and the **Scrum Master** need to work together to planify a **Sprint**?
 > 2. Answer the question: What's the role of the **Scrum Master**?
 
-> ## Step 4: Task to do
+> ## Step 4: Task to be done
 >    
 > As as member of the **Development Team**, you've been affected to the task **Provide a conception document** by the **Scrum Master**  
 > 1. Work on this Task
 > 2. Ensure that the **Acceptance tests**  are fully satisfied
+> 3. Answer the question: What is the livecycle of a **Task**?
 
 
 
