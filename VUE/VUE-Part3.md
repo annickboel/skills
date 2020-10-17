@@ -18,7 +18,7 @@
 >       [User story]: Implement master/detail navigation    
 >       [User story]: Provide a conception document  
 >
-> 1. Answer the following questions:
+> 1. Answer the following questions:  
 >     What's the role of the **Product Owner**?  
   
 
