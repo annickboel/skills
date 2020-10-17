@@ -51,13 +51,21 @@
 
 > ## Step 3: Understand the concept of Sprint, Scrum Master, Task.
 > 
-> The [EPIC] Blog deature has been marked as **ready** by the **Product Owner** and moved to the **Sprint BackLog**.   
+> The **[EPIC] Blog feature** has been marked as **ready** by the **Product Owner** and moved to the **Sprint BackLog**.   
 > All the **User stories** of the [EPIC] Blog feature will be iplemented in the next **Sprint**, as defined by the **Product Owner** in coordination with the **Scrum Master**  
 > The **Scrum Master** has refined the **User stories** into one or more **Tasks**.  
-> The [User story] Provide a conception document has been refined as a single **Task**.   
-> As as member of the **Development Team**, you've been affected to this **Task** by the **Scrum Master**
+>     List of Tasks for the current Sprint:  
+>       [ ] Provide a conception document
+>       [ ] Add a link in the navigation bar to navigate to the Blog feature  
+>       [ ] Implement the layout of the Blog feature (using Flexbox)  
+>       [ ] Implement the list of most recently published posts
+>       [ ] Implement the master/detail navigation
+>       [ ] Implement the blog detail page
 
 > 1. Answer the question: Why do the **Product Owner** and the **Scrum Master** need to work together to planify a **Sprint**?
-> 2. Answer the question: What's the role of the **Scrum Master** 
+> 2. Answer the question: What's the role of the **Scrum Master**?
 
+> ## Step 4: Task to do
+>    
+> As as member of the **Development Team**, you've been affected to the task **Provide a conception document** by the **Scrum Master**  
 
