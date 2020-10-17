@@ -46,10 +46,10 @@
 > ## Step 5: Understand component lifecycle and components hooks.
 > 1. Inside the **ItemDetail** component, define the following  methods:
 >    - beforeCreate() 
-     - created() 
-     - beforeMount() 
-     - mounted() 
-     - destroyed() 
+>    - created() 
+>    - beforeMount() 
+>    - mounted() 
+>    - destroyed() 
   2. Log to the console inside this methods
   3. What are the possible use cases for this hooks?
 
