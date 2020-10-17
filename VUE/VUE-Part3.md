@@ -26,15 +26,15 @@
 >   - When is it possible to pass an EPIC from the **Product BackLog** to the **Sprint Backlog**?
 
 > ## Step 2: Understand the concept of **User story** 
-> The **[User story] Provide a conception document** has been decribed by the **Product Owner** like this:
->  > **[User story] Provide a conception document**
+>  > **[User story] Provide a conception document**  
 >  > 
->  > **ID:**1  
->  > **Type:** Non-functional
->  > **Description:**  
->  >  - **As a** member of the **Development team**  
->  >  - **I want to** rely on a conception document  
->  >  - **So that** every member of the team could share the vision of what has to be developped  
+>  > **ID:** 1  
+>  > **Type:** Non-functional  
+>  > **Description:** 
+>  >s 
+>  > **As a** member of the **Development team**  
+>  > **I want to** rely on a conception document  
+>  > **So that** every member of the team could share the vision of what has to be developped  
 >  >
 >  > **Business rules:**
 >     1. The Blog geature will be accessible by a link in the navigation bar
