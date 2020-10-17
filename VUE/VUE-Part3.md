@@ -28,13 +28,19 @@
 > ## Step 2: Understand the concept of **User story** 
 > 
 >     [User story] Provide a conception document
->       **ID:**  1 
->       **Type:** Non functional     
->       **Description:**      
+>       ID:  1 
+>       Type: Non functional     
+>       Description:      
 >         As a member of the Development team     
 >         I wanto to rely on a conception document    
 >         So that every member of the team could share the same vision of the feature to develop
->       **Business rules:**  
+>       Business rules:  
+>         The Blog feature will be accessible by a link in the navigation bar
+>         The Blog will use the usual layout for a blog (3 sections: header, left and right)    
+>         The left part of the Blog page will display a list of the most recently published posts   
+>         Each item in the list will only display a subset of post data and metadata: publication date, title, summary and a 'Read more' link
+>         The 'Read more' link allow navigation to the detail of the post 
+>         The post detail will display the following information (publication date, author, title, content)  
 
 >    **[User story] Provide a conception document**  
 >    
