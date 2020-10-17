@@ -9,9 +9,11 @@
 >
 >     [EPIC Blog feature]
 >       A Blog feature will be added in the site
+>
+>     User stories:
+>       [User story]: Provide a conception document  
+>
 
->  > **[EPIC] Blog feature**.  
->  > A Blog feature will be added in the site.
 >
 >  > The **[EPIC] Blog feature** is described like this:  
 >  > [User story]: Provide a conception document   
