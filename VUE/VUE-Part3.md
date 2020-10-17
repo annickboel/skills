@@ -27,6 +27,14 @@
 
 > ## Step 2: Understand the concept of **User story** 
 > 
+>     User stories:
+>       [User story]: Provide a conception document  
+>       [User story]: Add a Blog link in the navigation bar    
+>       [User story]: Set up the blog layout  
+>       [User story]: Display a list of most recenty published post    
+>       [User story]: Implement master/detail navigation    
+>       [User story]: Provide a conception document  
+
 >    **[User story] Provide a conception document**  
 >    
 >    **ID:** 1  
