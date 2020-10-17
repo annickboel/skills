@@ -42,9 +42,12 @@
 >         The 'Read more' link allow navigation to the detail of the post 
 >         The post detail will display the following information (publication date, author, title, content)
 >       Acceptance tests:  
->         Conception document provided.  
-1. Answer the question: What is the interest of writing User stories?
-
+>         Conception document provided. 
+>     The document will present:
+>       - A description of the Blog feature and it's data model
+>       - The description of the components hierarchy
+>       - The description of every component (name, dependencies, props, data, computed, methods, events.    
+>  1. Answer the question: What is the interest of writing User stories?
 
 > ## Step 3: Understand the concept of Sprint, Scrum Master, Task.
 > 
