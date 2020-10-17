@@ -32,9 +32,9 @@
 >  > **Type:** Non-functional  
 >  > **Description:**  
 >  > 
->  > **<As a>** member of the **Development team**  
->  > **<I want to>** rely on a conception document  
->  > **<So that>** every member of the team could share the vision of what has to be developped  
+>  > **As a** member of the **Development team**  
+>  > **I want to>** rely on a conception document  
+>  > **So that** every member of the team could share the vision of what has to be developped  
 >  >
 >  > **Business rules:**
 >     1. The Blog geature will be accessible by a link in the navigation bar
