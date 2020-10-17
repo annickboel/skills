@@ -9,14 +9,14 @@
 >  > **[EPIC] Blog feature**.  
 >  >     A Blog feature will be added in the site.
 >
-> The **[EPIC] Blog feature** is described with the following **User stories**.
->   - [User story]: Provide a conception document for the Blog feature
->   - [User story]: Add a Blog link in the navigation bar
->   - [User story]: Implement the blog layout
->   - [User story]: Display a list of most recenty published post
->   - [User story]: Implement master/detail navigation
->   - [User story]: Display post abstract in each list item
->   - [User story]: Display post detail in the post page
+> The **[EPIC] Blog feature** is described with the following **User stories**:  
+>  > [User story]: Provide a conception document for the Blog feature  
+>  > [User story]: Add a Blog link in the navigation bar  
+>  > [User story]: Implement the blog layout  
+>  > User story]: Display a list of most recenty published post  
+>  > [User story]: Implement master/detail navigation  
+>  > [User story]: Display post abstract in each list item  
+>  > [User story]: Display post detail in the post page  
 >
 > 1. Answer the following questions:
 >   - What's the role of the **Product Owner**?
