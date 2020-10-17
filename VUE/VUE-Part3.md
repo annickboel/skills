@@ -46,8 +46,7 @@
 >     7. The detail of the post will display the following information (publication date, author, title, content)
 
 >   - **Acceptances tests:**
->     Acceptances tests:   
->     1. Conception document provided.   
+>     Conception document provided.   
 >     The document will present:
 >       - A description of the Blog feature and it's data model
 >       - The description of the components hierarchy
