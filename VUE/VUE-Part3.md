@@ -8,10 +8,16 @@
 > The **Product Owner** has gathered requirements for a new **Blog feature** and added the **EPIC Blog Feature** in the **Product Backlog**.
 >
 >     [EPIC Blog feature]
->       A Blog feature will be added in the site
+>       A Blog feature will be added in the site  
 >
 >     User stories:
 >       [User story]: Provide a conception document  
+>       [User story]: Add a Blog link in the navigation bar    
+>       [User story]: Set up the blog layout  
+>       [User story]: Display a list of most recenty published post    
+>       [User story]: Implement master/detail navigation    
+>       [User story]: Provide a conception document  
+
 >
 
 >
