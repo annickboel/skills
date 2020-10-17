@@ -19,7 +19,8 @@
 >       [User story]: Provide a conception document  
 >
 > 1. Answer the following questions:  
->     What's the role of the **Product Owner**?  
+>     [EPIC Blog feature]
+
   
 
 >   - What's the role of the **Product Owner**?
