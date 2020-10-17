@@ -28,7 +28,7 @@
 > ## Step 2: Understand the concept of **User story** 
 > 
 >     [User story] Provide a conception document
->       ID:  1 
+>       ID:  ES-1 
 >       Type: Non functional     
 >       Description:      
 >         As a member of the Development team     
@@ -40,32 +40,9 @@
 >         The left part of the Blog page will display a list of the most recently published posts   
 >         Each item in the list will only display a subset of post data and metadata: publication date, title, summary and a 'Read more' link
 >         The 'Read more' link allow navigation to the detail of the post 
->         The post detail will display the following information (publication date, author, title, content)  
-
->    **[User story] Provide a conception document**  
->    
->    **ID:** 1  
->  > **Type:** Non-functional  
->  > **Description:**  
->  >  > **As a** member of the **Development team**  
->  >  > **I want to>** rely on a conception document  
->  >  > **So that** every member of the team could share the vision of what has to be developped  
->  >
->  > **Business rules:**
->     1. The Blog geature will be accessible by a link in the navigation bar
->     2. The Blog will use the usual layout for a blog (3 sections: header, left and right)
->     3. The left part of the Blog page, will display a list of the most recently published posts.
->     4. The  Blog page, will display a list of the most recently published posts.
->     5. Each list item will only display a subset of post data and metadata: (publication date, title, summary and a 'Read more' link
->     6. The 'Read more' link allow navigation to the detail of the post
->     7. The detail of the post will display the following information (publication date, author, title, content)
-
->   - **Acceptances tests:**
->     Conception document provided.   
->     The document will present:
->       - A description of the Blog feature and it's data model
->       - The description of the components hierarchy
->       - The description of every component (name, dependencies, props, data, computed, methods, emitted events). 
+>         The post detail will display the following information (publication date, author, title, content)
+>       Acceptance tests:  
+>         Conception document provided.  
 1. Answer the question: What is the interest of writing User stories?
 
 
