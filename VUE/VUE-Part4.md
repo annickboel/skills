@@ -63,7 +63,29 @@
 >         The Blog page displays the list of most recently published posts
 >         The list displays a maximum of four posts
 >         The list is well ordered
->         Each item in the list displays the following informations: publication date, title, summary and a 'Read more link'
+>         An item will be implemented as in a BlogPost component
+>         The BlogPost component will be placed in the components directory
+>         The BlogPost component will display the following informations: publication date, title, summary and a 'Read more link'
+
+## Step 4: Implement the [User Story] Navigate from the list page to the detail page 
+> 
+>     [User story] Navigate from the list page to the detail page
+>       ID:  US-3 
+>       Type: Functional     
+>       Description:      
+>         As a user of the Blog feature    
+>         I want to navigate from the list page to a given post when I click on the 'Read more' link
+>         So that I can read the full content of the post
+>       Business rules: 
+>         The post page will be implemented as a component called BlogPost
+>         The BlogPost component will be placed in the views directory (because it is routable)
+>         The BlogPost page will follow the usual layout of the blog
+>         The BlogPost page will be accessible through the /blog/post/:id url
+>         A click on a 'Read more' link will display the BlogPost page
+>       Acceptance tests:  
+>         Navigation is possible from list to detail 
+>         The Blog page follows the layout of the Blog feature
+>         A Blog post is accessible through the /blog/post/:id url
 
 
 
