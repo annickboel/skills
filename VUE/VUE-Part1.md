@@ -96,7 +96,7 @@ The Register form will disappear. The 'Logged as:' and the Logout link will appe
 >    - On click on the Login button and **on login failure** : A error message will be displayed.
 > 5. Implement the logout process 
 
-> ## Step 9: Tests
+> ## Step 10: Tests
 
 > In this part, no Unit tests will be implemented. Your tests will be done through the UI.
 
