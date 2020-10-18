@@ -42,14 +42,14 @@
 > 4. Diplay the cart
 
 
-> ## Step 4: Use Vue.js directives (v-if, v-else)
+> ## Step 5: Use Vue.js directives (v-if, v-else)
 >
 > 1. Use the v-if, v-else directives to display two different backgrounds for the cart items (either the index line is odd or even)
 > 2. Create styles for your app to define the odd and even backgrounds
 > 4. Diplay the cart
 
 
-> ## Step 5: Use Vue.js directive (v-bind)
+> ## Step 6: Use Vue.js directive (v-bind)
 >
 > 1. Add a url property to each item in the datastore.
 > 2. Add a anchor to allow navigation to each item page.
@@ -57,7 +57,7 @@
 > 4. Diplay the cart. Check the anchors are working as expected
 > 5. Answer the question: What's the use of v-bind?
 
-> ## Step 6: Use Vue.js directive (v-on) and react to an event
+> ## Step 7: Use Vue.js directive (v-on) and react to an event
 >
 > 1. Define a button. This button will be used to toggle display of the cart
 > 2. Add a boolean property in the datastore called **visible**
@@ -67,13 +67,13 @@
 > 4. Use the v-on directive to react to a click event on the button by calling the **toggleDisplay method**
 > 5. Check that the value of the visbible property is changed on button click
 
-> ## Step 7: Use Vue.js directive (v-show) and react to an event
+> ## Step 8: Use Vue.js directive (v-show) and react to an event
 >
 > 1. Add a div around the cart
 > 2. Use the v-show directive in this div. The v-show diretive will be associated to the visible property.
 > 3. Check that the Cart is toogled by the Toggle display button.
 
-> ## Step 8: Use the Vue.js directive (v-model and v-bind:class) 
+> ## Step 9: Use the Vue.js directive (v-model and v-bind:class) 
 >
 > 1. In the data section of the vue intance, define the following properties (**profiles, profile, user, logged, messgae**)
 >   - The **profiles** property is defined as an array of user objects
