@@ -57,15 +57,15 @@
 >         A maximum of four posts will be displayed on this list
 >         The list will be implemented as a component called BlogPostList
 >         Each item in the list will be implemented as a component called BlogPost
->         The BlogPost component will display the following informations: publication date, title, summary and a 'Read more link'
+>         The BlogPost component used will display the following informations: publication date, title, summary and a 'Read more link'
 >         The list will be ordered (the most recent post the first)
 >       Acceptance tests:  
 >         The Blog page displays the list of most recently published posts
 >         The list displays a maximum of four posts
 >         The list is well ordered
 >         An item will be implemented as in a BlogPost component
->         The BlogPost component will be placed in the components directory
->         The BlogPost component will display the following informations: publication date, title, summary and a 'Read more link'
+>         The BlogPost component is placed in the components directory
+>         The BlogPost component displays the publication date, tags, title, summary and a 'Read more link'
 
 ## Step 4: Implement the [User Story] Navigate from the list page to the detail page 
 > 
@@ -87,5 +87,22 @@
 >         The Blog page follows the layout of the Blog feature
 >         A Blog post is accessible through the /blog/post/:id url
 
+
+## Step 5: Implement the [User Story] Display the full content of the Blog post 
+> 
+>     [User story] Display the full content of the Blog post
+>       ID:  US-3 
+>       Type: Functional     
+>       Description:      
+>         As a user of the Blog feature    
+>         I want to see the full content of the blog post
+>         So that I can read it
+>       Business rules: 
+>         The detailed content of the post will be implemented as a component named BlogPostDetail
+>         The BlogPostDetail will reuse the BlogPost component (in detail mode) to display the following informations: (publication date, tags, title, content, and informations about the author)
+>         The informations about the author will be displayed using a BlogPostAuthor component
+>         The BlogPostAuthor component will display a photo of the author as well as his or her name and company
+>       Acceptance tests:  
+>         The BlogPost page displays the relevant informations
 
 

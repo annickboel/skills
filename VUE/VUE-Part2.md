@@ -53,7 +53,6 @@
   2. Log to the console inside this methods
   3. What are the possible use cases for this hooks?
 
-
 > ## Step 6: Understand communication from Child to Parent using events.
 > 1. Add a Link in the **Nav** component called **Cart** 
 > 2. Add a section besides the Cart link. 

@@ -14,9 +14,9 @@
 >       [User story]: Provide a conception document  
 >       [User story]: Add a Blog link in the navigation bar    
 >       [User story]: Set up the blog layout  
->       [User story]: Display a list of most recenty published post    
->       [User story]: Implement master/detail navigation    
->       [User story]: Provide a conception document  
+>       [User story]: Display a list of most recenty published posts    
+>       [User story]: Navigate from list page to detail page
+>       [User story]: Display the full content of a blog post  
 >
 > 1. Answer the following questions:  
 >   - What's the role of the **Product Owner**?
@@ -61,8 +61,8 @@
 >       [ ] Add a Blog link in the navigation  
 >       [ ] Setup the layout of the Blog feature   
 >       [ ] List of the most recently published posts  
->       [ ] Implement the master/detail navigation  
->       [ ] Implement the blog detail page  
+>       [ ] Navigate from list page to detail page 
+>       [ ] Display the full content of a blog post  
 
 > 1. Answer the question: Why do the **Product Owner** and the **Scrum Master** need to work together to planify a **Sprint**?
 > 2. Answer the question: What's the role of the **Scrum Master**?
