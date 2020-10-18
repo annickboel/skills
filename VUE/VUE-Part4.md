@@ -91,7 +91,7 @@
 ## Step 5: Implement the [User Story] Display the full content of the Blog post 
 > 
 >     [User story] Display the full content of the Blog post
->       ID:  US-3 
+>       ID:  US-4 
 >       Type: Functional     
 >       Description:      
 >         As a user of the Blog feature    
