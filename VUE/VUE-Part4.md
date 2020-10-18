@@ -15,7 +15,7 @@
 >       Business rules:  
 >         The Blog page will be implemented as a component called Blog
 >         The Blog feature will be accessible as the /blog URL
-          The Blog component will be placed in the views directory
+>         The Blog component will be placed in the views directory
 >       Acceptance tests:  
 >         Blog link added in the navigation bar. 
 >         Access to Blog feature successful when the link is clicked
