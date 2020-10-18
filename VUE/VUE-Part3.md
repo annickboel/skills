@@ -59,8 +59,8 @@
 >     List of Tasks for the current Sprint:  
 >       [ ] Provide a conception document
 >       [ ] Add a Blog link in the navigation  
->       [ ] Implement the layout of the Blog feature (using Flexbox)   
->       [ ] Implement the list of most recently published posts  
+>       [ ] Setup the layout of the Blog feature   
+>       [ ] List of the most recently published posts  
 >       [ ] Implement the master/detail navigation  
 >       [ ] Implement the blog detail page  
 

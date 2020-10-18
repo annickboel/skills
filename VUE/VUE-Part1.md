@@ -25,14 +25,14 @@
 >  -  **objectData** of type Object 
 > 4. Display the data in the app div using the **mustache syntax**
 
-> ## Step 2: Define and use computed properties
+> ## Step 3: Define and use computed properties
 
 > 1. To handle a ecommerce cart, define the price of 3 products in your datastore. 
 > 2. Define a **computed property** called **totalAmount**. The function will compute total price for items in the cart
 > 3. Answer the question: What is a computed property in Vue.js?
 > 4. Display the cart 
 
-> ## Step 3: Use Vue.js directives (v-for)
+> ## Step 4: Use Vue.js directives (v-for)
 >
 > 1. In the datastore, define a items property as and array of objects.
 >   - The object structure will define the name and the price of a  item 
