@@ -54,14 +54,15 @@
 > 
 > The **[EPIC] Blog feature** has been marked as **ready** by the **Product Owner** and moved to the **Sprint BackLog**.   
 > All the **User stories** of the [EPIC] Blog feature will be iplemented in the next **Sprint**, as defined by the **Product Owner** in coordination with the **Scrum Master**  
-> The **Scrum Master** has refined the **User stories** into one or more **Tasks**.  
+> The **Scrum Master** has refined the **User stories** into one or more **Tasks**. 
+
 >     List of Tasks for the current Sprint:  
 >       [ ] Provide a conception document
 >       [ ] Add a Blog link in the navigation  
->       [ ] Implement the layout of the Blog feature (using Flexbox)  
->       [ ] Implement the list of most recently published posts
->       [ ] Implement the master/detail navigation
->       [ ] Implement the blog detail page
+>       [ ] Implement the layout of the Blog feature (using Flexbox)   
+>       [ ] Implement the list of most recently published posts  
+>       [ ] Implement the master/detail navigation  
+>       [ ] Implement the blog detail page  
 
 > 1. Answer the question: Why do the **Product Owner** and the **Scrum Master** need to work together to planify a **Sprint**?
 > 2. Answer the question: What's the role of the **Scrum Master**?
