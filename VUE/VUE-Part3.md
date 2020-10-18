@@ -40,7 +40,8 @@
 >         The left part of the Blog page will display a list of the most recently published posts   
 >         Each item in the list will only display a subset of post data and metadata: publication date, title, summary and a 'Read more' link
 >         The 'Read more' link allow navigation to the detail of the post 
->         The post detail will display the following information (publication date, author, title, content)
+>         The post detail will display the following information (publication date, tags, title, content, about author)
+>         The 'About author' section will be  placed at the end of the post and will display the photo of the author, as well as his name, function and company
 >       Acceptance tests:  
 >         Conception document provided. 
 >     The document will present:
@@ -56,7 +57,7 @@
 > The **Scrum Master** has refined the **User stories** into one or more **Tasks**.  
 >     List of Tasks for the current Sprint:  
 >       [ ] Provide a conception document
->       [ ] Add a link in the navigation bar to navigate to the Blog feature  
+>       [ ] Add a Blog link in the navigation  
 >       [ ] Implement the layout of the Blog feature (using Flexbox)  
 >       [ ] Implement the list of most recently published posts
 >       [ ] Implement the master/detail navigation
