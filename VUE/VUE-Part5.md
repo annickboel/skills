@@ -92,8 +92,7 @@
 >     - Check that the list of most recently published post is successfully displayed
 >     - Check that a error message is displayed in case of API call failure
 
-
-> ## Step 6s: [User Story] - Diplay the full content of a blog post (Refactoring)
+> ## Step 6: [User Story] - Diplay the full content of a blog post (Refactoring)
 > 1. Refactor this User Story to use the BlogAPI
 
 > ## Resources
