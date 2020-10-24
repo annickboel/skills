@@ -88,9 +88,9 @@
 >     - In the **created** hook of the **Blog** component, subscribe to **mutations** of the state to update the **status**, **errorMessage** and **list** properties in the **data** section. 
 >     - In the **beforeDestroy** of the **Blog** component, **unsubscribe** to **mutations** on the state
 >  11. Tests
->     - Check that a 'Loading....' message is displayed during API call
->     - Check that the list of most recently published post is successfully displayed
->     - Check that a error message is displayed in case of API call failure
+>     - Check that a 'Loading....' message is displayed during API call  
+>     - Check that the list of most recently published post is successfully displayed  
+>     - Check that a error message is displayed in case of API call failure  
 
 > ## Step 6: [User Story] - Diplay the full content of a blog post (Refactoring)
 > 1. Refactor this User Story to use the BlogAPI
