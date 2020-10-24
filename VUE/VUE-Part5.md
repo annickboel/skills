@@ -78,14 +78,15 @@
 >     - Log the response, in the **then** function of the API call
 >     - Log the error, in the **catch** function of the API call
 >  8. In the **mutations** section of the store, create a **mutation** called SET_FETCH_BLOG_LIST_SUCCESS
->     - This mutation will set **fetchBlogListStatus** property from 'loading' to 'success' and the **blogposts** property to the data retrieved from the API call
->     - Commit this mutation in the **then** function of the API call.
+>     - This mutation will set **fetchBlogListStatus** property from '**loading**' to '**success**' and the **blogposts** property to the data retrieved from the API call
+>     - **Commit** this **mutation** in the **then** function of the API call.
 >  9. In the **mutations** section, create a **mutation** called SET_FETCH_BLOG_LIST_FAILURE
->     - This mutation will set **fetchBlogListLoading** property from 'loading' to 'failure' and the **errorMessage** to the data retrieved from the API call
->     - Commit this mutation in the **catch** function of the API call.
->  10. Subscribe to changes in the state, so that the Blog component will react to changes in the state and render again.  
->     - In the **data** section of the Blog component, add two properties: **status** and **message**  
->     - In the **created** hook of the Blog component, subscribe to **mutations** of the state to update the status, errorMessage and list properties in the data section.  
+>     - This **mutation** will set **fetchBlogListLoading** property from '**loading**' to '**failure**' and the **errorMessage** to the data retrieved from the API call
+>     - **Commit** this **mutation** in the **catch** function of the API call.
+>  10. **Subscribe** to changes in the state, so that the Blog component **will react to changes in the state** and render again.  
+>     - In the **data** section of the **Blog** component, add two properties: **status** and **message**  
+>     - In the **created** hook of the **Blog** component, subscribe to **mutations** of the state to update the status, errorMessage and list properties in the data section. 
+>     - In the **beforeDestroy** of the **Blog** component, unsubscribe to **mutations** on the state
 >  11. Tests
 >     - Check that a 'Loading....' message is displayed during API call
 >     - Check that the list of most recently published post is successfully displayed
