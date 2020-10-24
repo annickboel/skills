@@ -58,7 +58,6 @@
 > ## Step 5: Modify the state using actions and mutations. Subscribe to changes in the state
 > In this state we'll use the **Blog API** to retrieve the list of the most recently published posts
 > 1. Install the axios library using **npm install --save axios**  
->   Note: 
 >   - An API call is asynchronous. 
 >   - There are 3 possible states in an API call: loading, success and failure  
 >  2. In the store add a property called **fetchBlogListStatus** initialized as null
