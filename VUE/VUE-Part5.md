@@ -5,6 +5,8 @@
 > 2. Use VueX to create and manage a centralized state.
 > 3. Understand the notion of smart and dumb components.
 > 4. Call an API with axios
+> 5. Understand the VueX notions of mutations and actions
+> 6. Subsribe to changes in the centralized store
 
 ## Step 1: Create a centralized state manager with VueX
 >  VueX will be used to create a centralized store where the global state of the application will be managed
@@ -19,7 +21,7 @@
 >  2. In the state property of the store, setup the Blog feature initial state.
 
 ## Step 3: Read data from the centralized store. Understand the notion of Smart and Dumb components
->  The [User story] List of the most recently published posts will be refactored to use a centralized store
+>  The **[User story] List of the most recently published posts** will be refactored to use a centralized store
 >  1. In the **data** function of the Blog component return an empty object
 >  2. In the **computed** section of the Blog component:
 >     - Use the **mapState helper** to retrieve the blogposts array from **the centralized store**
@@ -40,11 +42,11 @@
 >         So that easily Create, Read, Update, Delete posts
 >       Business rules:
 >         The API entrypoint will be api/v0 with the follow endpoints:
->           - api/vO/blogposts (POST): Create a post
->           - api/v0/blogposts (GET) : List the posts
->           - api/v0/blogposts/:id (GET) : Read a post
->           - api/v0/blogposts/:id (PUT): Updata a post
->           - api/v0/blogposts/:id (DELETE): Delete a post
+>           - api/blogposts (POST): Create a post
+>           - api/blogposts (GET) : List the posts
+>           - api/blogposts/:id (GET) : Read a post
+>           - api/blogposts/:id (PUT): Updata a post
+>           - api/blogposts/:id (DELETE): Delete a post
 >       Acceptance tests:  
 >         The API is available when the application starts
 >       Notes:
@@ -53,7 +55,7 @@
 >           - The API will be implemented with JSON Server.
 >           - The API will be installed in the api directory as a db.json file
 
-> ## Step 4: Modify the state using actions and mutations. Subscribe to changes in the state
+> ## Step 5: Modify the state using actions and mutations. Subscribe to changes in the state
 > In this state we'll use the Blog API to retrieve the list of the most recently published posts
 > 1. Install the axios library using **npm install --save axios**
 > Note: 
@@ -90,7 +92,7 @@
 >     - Check that a error message is displayed in case of API call failure
 
 
-> ## Step 5: [User Story] - Diplay the full content of a blog post (Refactoring)
+> ## Step 6: [User Story] - Diplay the full content of a blog post (Refactoring)
 > 1. Refactor this User Story to use the BlogAPI
 
 > ## Resources
