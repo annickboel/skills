@@ -68,7 +68,7 @@
 >     - An **action** is a method with tow parameters : context and payload, the payload parameter is optional
 >     - An **action** will coordinate several **mutations** in the state
 >  5. Log a message to ensure the **fetchBlogList** action is called when the Blog page is displayed.
->  6. In the **mutations** section of the store, create a **mutation** called SET_FETCH_BLOG_LIST_LOADING
+>  6. In the **mutations** section of the store, create a **mutation** called **SET_FETCH_BLOG_LIST_LOADING**
 >     - A **mutation** updates one or more properties in the state in a **synchronous** way
 >     - A **mutation** is a method with two parameters : state and payload
 >     - The SET_FETCH_BLOG_LIST_LOADING will set the **fetchBlogListStatus** property from null to 'loading', the **errorMessage** property  to an empty string and the **blogposts** property to a empty array
@@ -77,16 +77,16 @@
 >     - Call the Blog API using the axios http client. 
 >     - Log the response, in the **then** function of the API call
 >     - Log the error, in the **catch** function of the API call
->  8. In the **mutations** section of the store, create a **mutation** called SET_FETCH_BLOG_LIST_SUCCESS
+>  8. In the **mutations** section of the store, create a **mutation** called **SET_FETCH_BLOG_LIST_SUCCESS**
 >     - This mutation will set **fetchBlogListStatus** property from '**loading**' to '**success**' and the **blogposts** property to the data retrieved from the API call
 >     - **Commit** this **mutation** in the **then** function of the API call.
->  9. In the **mutations** section, create a **mutation** called SET_FETCH_BLOG_LIST_FAILURE
+>  9. In the **mutations** section, create a **mutation** called **SET_FETCH_BLOG_LIST_FAILURE**
 >     - This **mutation** will set **fetchBlogListLoading** property from '**loading**' to '**failure**' and the **errorMessage** to the data retrieved from the API call
 >     - **Commit** this **mutation** in the **catch** function of the API call.
 >  10. **Subscribe** to changes in the state, so that the Blog component **will react to changes in the state** and render again.  
 >     - In the **data** section of the **Blog** component, add two properties: **status** and **message**  
->     - In the **created** hook of the **Blog** component, subscribe to **mutations** of the state to update the status, errorMessage and list properties in the data section. 
->     - In the **beforeDestroy** of the **Blog** component, unsubscribe to **mutations** on the state
+>     - In the **created** hook of the **Blog** component, subscribe to **mutations** of the state to update the **status**, **errorMessage** and **list** properties in the **data** section. 
+>     - In the **beforeDestroy** of the **Blog** component, **unsubscribe** to **mutations** on the state
 >  11. Tests
 >     - Check that a 'Loading....' message is displayed during API call
 >     - Check that the list of most recently published post is successfully displayed
