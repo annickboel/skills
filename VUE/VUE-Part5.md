@@ -83,16 +83,16 @@
 >  9. In the **mutations** section, create a **mutation** called SET_FETCH_BLOG_LIST_FAILURE
 >     - This mutation will set **fetchBlogListLoading** property from 'loading' to 'failure' and the **errorMessage** to the data retrieved from the API call
 >     - Commit this mutation in the **catch** function of the API call.
->  10. Subscribe to changes in the state, so that the Blog component will react to changes in the state and render again.
->     - In the **data** section of the Blog component, add two properties: **status** and **message**
->     - In the **created** hook of the Blog component, subscribe to **mutations** of the state to update the status, errorMessage and list properties in the data section.
+>  10. Subscribe to changes in the state, so that the Blog component will react to changes in the state and render again.  
+>     - In the **data** section of the Blog component, add two properties: **status** and **message**  
+>     - In the **created** hook of the Blog component, subscribe to **mutations** of the state to update the status, errorMessage and list properties in the data section.  
 >  11. Tests
 >     - Check that a 'Loading....' message is displayed during API call
 >     - Check that the list of most recently published post is successfully displayed
 >     - Check that a error message is displayed in case of API call failure
 
 
-> ## Step 6: [User Story] - Diplay the full content of a blog post (Refactoring)
+> ## Step 6s: [User Story] - Diplay the full content of a blog post (Refactoring)
 > 1. Refactor this User Story to use the BlogAPI
 
 > ## Resources
