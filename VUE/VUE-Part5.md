@@ -56,7 +56,7 @@
 >           - The API will be installed in the api directory as a db.json file
 
 > ## Step 5: Modify the state using actions and mutations. Subscribe to changes in the state
-> In this state we'll use the Blog API to retrieve the list of the most recently published posts
+> In this state we'll use the **Blog API** to retrieve the list of the most recently published posts
 > 1. Install the axios library using **npm install --save axios**
 > Note: 
 >   - An API call is asynchronous. 
