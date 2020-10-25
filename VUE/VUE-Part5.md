@@ -70,7 +70,7 @@
 >  6. In the **mutations** section of the store, create a **mutation** called **SET_FETCH_BLOG_LIST_LOADING**
 >     - A **mutation** updates one or more properties in the state in a **synchronous** way
 >     - A **mutation** is a method with two parameters : state and payload
->     - The SET_FETCH_BLOG_LIST_LOADING will set the **fetchBlogListStatus** property from null to 'loading', the **errorMessage** property  to an empty string and the **blogposts** property to a empty array
+>     - This **mutation** will set the **fetchBlogListStatus** property from null to 'loading', the **errorMessage** property  to an empty string and the **blogposts** property to a empty array
 >     - Commit this mutation in the **fetchBlogList** action
 >  7. In the **fetchBlogList** action :
 >     - Call the Blog API using the axios http client. 
