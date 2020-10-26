@@ -60,9 +60,12 @@
 > 1. Install the axios library using **npm install --save axios**  
 >   - An API call is asynchronous. 
 >   - There are 3 possible states in an API call: loading, success and failure  
->  2. In the store add a property called **fetchBlogListStatus** initialized as null
+>  2. In the store add three properties: 
+>    - **\_api_status** initialized as null  
+>    - **\_api_message** initialized as null 
+>    - **\_blogposts** initialized as null  
 >  The API call will be make by **dispatching an action** in the centralized store.
->  3. In the **beforeCreate** hook of the Blog component, dispatch an **action** called **fetchBlogList**
+>  3. In the **create** hook of the Blog component, dispatch an **action** called **fetchBlogList**
 >  4. In the **actions** section of the store, create a **action** called **fetchBlogList**
 >     - An **action** is a method with tow parameters : context and payload, the payload parameter is optional
 >     - An **action** will coordinate several **mutations** in the state
@@ -70,21 +73,22 @@
 >  6. In the **mutations** section of the store, create a **mutation** called **SET_FETCH_BLOG_LIST_LOADING**
 >     - A **mutation** updates one or more properties in the state in a **synchronous** way
 >     - A **mutation** is a method with two parameters : state and payload
->     - This **mutation** will set the **fetchBlogListStatus** property from null to 'loading', the **errorMessage** property  to an empty string and the **blogposts** property to a empty array
+>     - This **mutation** will set the **\_api_status** property from null to 'loading', the **\_api_message** property  to an empty string and the **\_blogposts** property to a empty array
 >     - Commit this mutation in the **fetchBlogList** action
 >  7. In the **fetchBlogList** action :
 >     - Call the Blog API using the axios http client. 
 >     - Log the response, in the **then** function of the API call
 >     - Log the error, in the **catch** function of the API call
 >  8. In the **mutations** section of the store, create a **mutation** called **SET_FETCH_BLOG_LIST_SUCCESS**
->     - This mutation will set **fetchBlogListStatus** property from '**loading**' to '**success**' and the **blogposts** property to the data retrieved from the API call
+>     - This mutation will set **\_api_status** property from '**loading**' to '**success**' and the **\_blogposts** property to the data retrieved from the API call
 >     - **Commit** this **mutation** in the **then** function of the API call.
 >  9. In the **mutations** section, create a **mutation** called **SET_FETCH_BLOG_LIST_FAILURE**
->     - This **mutation** will set **fetchBlogListLoading** property from '**loading**' to '**failure**' and the **errorMessage** to the data retrieved from the API call
+>     - This **mutation** will set **\_api_status** property from '**loading**' to '**failure**' and the **\_api_message** to the data retrieved from the API call
 >     - **Commit** this **mutation** in the **catch** function of the API call.
 >  10. **Subscribe** to changes in the state, so that the Blog component **will react to changes in the state** and render again.  
->     - In the **data** section of the **Blog** component, add two properties: **status** and **message**  
->     - In the **created** hook of the **Blog** component, subscribe to **mutations** of the state to update the **status**, **errorMessage** and **list** properties in the **data** section. 
+>     - In the **data** section of the **Blog** component, add two properties: **api_status** and **api_message** 
+>     - In the **computed** section of the **Blog component, use the **mapState** function to recover the **\_api_status**, **\_api_message** and **\_blogposts** from the centralized store. 
+>     - In the **created** hook of the **Blog** component, subscribe to **mutations** of the state to update the **api_status**, **api_message** and **list** properties in the **data** section. 
 >     - In the **beforeDestroy** of the **Blog** component, **unsubscribe** to **mutations** on the state
 >  11. Tests  
 >     - Check that a 'Loading....' message is displayed during API call  

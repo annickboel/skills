@@ -22,7 +22,7 @@
 >   - What's the role of the **Product Owner**?
 >   - What's a **Product Backlog**?
 >   - What's the relation between the **Product Backlog** and the **Epics**?
->   - What's a **Sprint**?
+>   - What's a **Sprint BackLog**?
 >   - When is it possible to pass an EPIC from the **Product BackLog** to the **Sprint Backlog**?
 
 > ## Step 2: Understand the concept of **User story** 
@@ -31,9 +31,9 @@
 >       ID:  ES-1 
 >       Type: Non functional     
 >       Description:      
->         As a member of the Development team     
->         I wanto to rely on a conception document    
->         So that every member of the team could share the same vision of the feature to develop
+>         **As** a Designer of the site    
+>         **I want** to rely on a conception document    
+>         **So that** every member of the Developmenfteam could share the same vision of the feature to develop
 >       Business rules:  
 >         The Blog feature will be accessible by a link in the navigation bar
 >         The Blog will use the usual layout for a blog (3 sections: header, left and right)    
@@ -44,16 +44,16 @@
 >         The 'About author' section will be  placed at the end of the post and will display the photo of the author, as well as his name, function and company
 >       Acceptance tests:  
 >         Conception document provided. 
->     The document will present:
->       - A description of the Blog feature and it's data model
->       - The description of the components hierarchy
->       - The description of every component (name, dependencies, props, data, computed, methods, events.    
+>         The document will present:
+>         - A description of the Blog feature and it's data model
+>         - The description of the components hierarchy
+>         - The description of every component (name, dependencies, props, data, computed, methods, events.    
 >  1. Answer the question: What is the interest of writing User stories?
 
 > ## Step 3: Understand the concept of Sprint, Scrum Master, Task.
 > 
 > The **[EPIC] Blog feature** has been marked as **ready** by the **Product Owner** and moved to the **Sprint BackLog**.   
-> All the **User stories** of the [EPIC] Blog feature will be iplemented in the next **Sprint**, as defined by the **Product Owner** in coordination with the **Scrum Master**  
+> All the **User stories** of the **[EPIC] Blog feature** will be implemented in the next **Sprint**, as defined by the **Product Owner** in coordination with the **Scrum Master**  
 > The **Scrum Master** has refined the **User stories** into one or more **Tasks**. 
 
 >     List of Tasks for the current Sprint:  
