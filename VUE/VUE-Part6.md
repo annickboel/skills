@@ -25,12 +25,11 @@
 >         - The title of the page in the header section. This title must not be displated
 >         - A Register form where the user can enter the following informations: firstName, lastName, email, password, password confirmation.
 >         - A button called Register
-          The firstName, lastName, email, password and password confirmation fields are mandatory
+>         The firstName, lastName, email, password and password confirmation fields are mandatory
 >         A error message will be displayed if:
 >         - Mandatory fields are not filled
-          - Passwords are not identical
->         On click on the Register button the user profile will be logged on the console
->    
+>         - Passwords are not identical
+>         On click on the Register button the user profile will be logged on the console  
 >       Acceptance tests:  
 >         A Register Link is added in the navigation bar
 >         On click on the Register Link, the user is redirected to the Register page
@@ -57,11 +56,10 @@
 >         - The title of the page in the header section. This title must not be displayed
 >         - A Login form where the user an enter the following informations: email and password.
 >         - A button called Login
-          The email and passwords fields are mandatory
+>         The email and passwords fields are mandatory
 >         A error message will be displayed if:
 >         - Mandatory fields are not filled
->         On click on the Login button the user will be logged on the console
->    
+>         On click on the Login button the user will be logged on the console 
 >       Acceptance tests:  
 >         A Login Link is added in the navigation bar
 >         On click on the Login Link, the user is redirected to the Login page
@@ -105,9 +103,9 @@
 >         The Register mechanism will rely on the User API
 >         The state will be maintained in the centralized store
 >         Registration with an already existing email will be forbidden. An error message will be displayed
-          On successfull registration: 
-          - 'Logged as' and Logout sections will be added in the navigation bar
-          _ Login and Register links will disappear
+>         On successfull registration: 
+>         - 'Logged as' and Logout sections will be added in the navigation bar
+>         - Login and Register links will disappear
 >         - A new user profile will be added in the fake database 
 >         - The user will be considered as authenticated.
 >         - The user will be redirected to the Home page
