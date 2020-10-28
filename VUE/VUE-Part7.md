@@ -71,6 +71,6 @@
 > *https://testdriven.io/blog/vue-unit-testing/*
 > *https://www.synbioz.com/blog/tech/testez-unitairement-application-vuejs-jest*
 > *https://blog.octo.com/tests-unitaires-en-vue-js-avec-vue-test-utils-et-jest/*
-> * xhttps://frontstuff.io/unit-test-your-first-vuejs-component
+> *https://frontstuff.io/unit-test-your-first-vuejs-component*
 
 
