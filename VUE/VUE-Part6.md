@@ -118,7 +118,7 @@
 >         The registered user is redirected to the Home page
 
 ## Step 5: [User Story] Login
->     [User story] Register
+>     [User story] Login
 >       ID:  US-X 
 >       Type: Functional     
 >       Description:      
@@ -135,10 +135,9 @@
 >         On login failure:
 >         - An error message will be displayed
 >       Acceptance tests:  
->         A error message is displayed if the credeb
->         The registered user is considered as authenticated
+>         A error message is displayed if the credentials are not valid
 >         A 'Logged as' section has been added in the navigation bar
->         The registered user is redirected to the Home page
+>         The authenticated user is redirected to the Home page
 
 
 > ## Resources
