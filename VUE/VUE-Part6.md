@@ -111,21 +111,31 @@
 >         So that I can access to features protected by authentication
 >       Business rules:
 >         The Register mechanism will rely on the User API
->         The state will be maintained in the centralized store
+>         The authentication state will be maintained in the centralized store
 >         Registration with an already existing email will be forbidden. An error message will be displayed
->         On successfull registration: 
+>         On registration success: 
 >         - 'Logged as' and Logout sections will be added in the navigation bar
 >         - Login and Register links will disappear
 >         - A new user profile will be added in the fake database 
 >         - The user will be considered as authenticated.
 >         - The user will be redirected to the Home page
+>         On registration failure:
+>         - An error message will be displayed
+>         The API error message will disappear on focus in any mandatory field
 >       Acceptance tests:  
->         After successfull registration a new profile has been added in the fake database
->         A error message is displayed if the email is already existing
->         The registered user is considered as authenticated
->         'Logged as' and Logout section have been added in the navigation bar
->         Login and Register are no more present
->         The registered user is redirected to the Home page
+>         The Register mechanism relies on the User API
+>         The authentication state is maintained in the centralized store
+>         On registration success:
+>         - A new profile has been added in the fake database
+>         - A 'Logged as' and Logout section have been added in the navigation bar
+>         - The Login and Register links are no more present
+>         - The authentictation state has been updated in the centralized store
+>         _ The registered user is redirected to the Home page
+>         On registration failure:
+>         - The relevant error message is displayed
+>         - No profile has been added in the fake database 
+>         The API error message disappears on focus on any mandatory field
+>         
 
 ## Step 5: [User Story] Login
 >     [User story] Login
@@ -141,14 +151,23 @@
 >         On login success: 
 >         - 'Logged as' and Logout sections will be added in the navigation bar
 >         - Login and Register links will disappear
->         - The user will be considered as authenticated.
+>         - The authentictation state has been updated in the centralized store
 >         - The user will be redirected to the Home page
 >         On login failure:
 >         - An error message will be displayed
+>         The API error message will disappear on focus in any mandatory field
 >       Acceptance tests:  
->         A error message is displayed if the credentials are not valid
->         A 'Logged as' section has been added in the navigation bar
->         The authenticated user is redirected to the Home page
+>         The Login mechanism relies on the User API
+>         The authentication state is maintained in the centralized store
+>         On Login success:
+>         - A 'Logged as' and Logout section have been added in the navigation bar
+>         - The Login and Register links are no more present
+>         - The authentictation state has been updated in the centralized store
+>         _ The logged user is redirected to the Home page
+>         On login failure:
+>         - The relevant error message is displayed
+>         The API error message disappears on focus on any mandatory field
+
 
 ## Step 6: [User Story] Logout
 >     [User story] Logout 
@@ -157,18 +176,21 @@
 >       Description:      
 >         As a User of the site 
 >         I want to logout 
->         So that I can quit my session
+>         So that I can leave my authenticated session
 >       Business rules:
->         A logout link will be added in the navigation bar
->         The state will be maintained in the centralized store
->         On logout: 
+>         A logout section will be added in the navigation bar
+>         The authentication state will be maintained in the centralized store
+>         On click on the Logout section: 
 >         - 'Logged as' and Logout sections will disappear
 >         - Login and Register links will be displayed
->         - The user will be redirected to the Home page
+>         - The authentication state will be updated in the centralized store
 >       Acceptance tests:  
->         A error message is displayed if the credentials are not valid
->         A 'Logged as' section has been added in the navigation bar
->         The authenticated user is redirected to the Home page
+>         A logout section has been added in the navigation bar
+>         The authentictation state is maintained in the centralized store
+>         On click on the logout section:
+>         - 'Logged as' and Logout sections are not more present
+>         - Login and Register links are displayed
+>         - The authentication state has been in the centralized store
 
 
 > ## Resources
