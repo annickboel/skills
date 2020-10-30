@@ -3,7 +3,7 @@
 > 
 > 1. Improve your coding skills by implementing the Login/Register/Logout mechanism
  
-> ## Step 3: [User Story] Register UI setup
+> ## Step 1: [User Story] Register UI setup
 >     [User story] Register UI setup
 >       ID:  ES-4 
 >       Type: Functional     
@@ -39,7 +39,7 @@
 >         On click on the Register button the profile is logged to the console.
 
 
- > ## Step 4: [User Story] Login UI setup
+ > ## Step 2: [User Story] Login UI setup
 >     [User story] Login UI setup
 >       ID:  ES-4 
 >       Type: Functional     
@@ -123,17 +123,38 @@
 >       Type: Functional     
 >       Description:      
 >         As a User of the site 
->         I want login 
+>         I want to login 
 >         So that I can access to features protected by authentication
 >       Business rules:
 >         The Login mechanism will rely on the User API
 >         The state will be maintained in the centralized store
 >         On login success: 
 >         - 'Logged as' and Logout sections will be added in the navigation bar
+>         - Login and Register links will disappear
 >         - The user will be considered as authenticated.
 >         - The user will be redirected to the Home page
 >         On login failure:
 >         - An error message will be displayed
+>       Acceptance tests:  
+>         A error message is displayed if the credentials are not valid
+>         A 'Logged as' section has been added in the navigation bar
+>         The authenticated user is redirected to the Home page
+
+## Step 6: [User Story] Logout
+>     [User story] Logout 
+>       ID:  US-X 
+>       Type: Functional     
+>       Description:      
+>         As a User of the site 
+>         I want to logout 
+>         So that I can quit my session
+>       Business rules:
+>         A logout link will be added in the navigation bar
+>         The state will be maintained in the centralized store
+>         On logout: 
+>         - 'Logged as' and Logout sections will disappear
+>         - Login and Register links will be displayed
+>         - The user will be redirected to the Home page
 >       Acceptance tests:  
 >         A error message is displayed if the credentials are not valid
 >         A 'Logged as' section has been added in the navigation bar

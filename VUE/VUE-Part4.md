@@ -5,22 +5,7 @@
 
 > ## Step 1: Implement the [User Story] Add a Blog link in the navigation bar
 > 
->     [User story] Add a Blog link in the navigation bar
->       ID:  US-1 
->       Type: Functional     
->       Description:      
->         As a user of the Blog feature    
->         I want to click on a Blog link  
->         So that I can access to the Blog feature
->       Business rules:  
->         The Blog page will be implemented as a component called Blog
->         The Blog feature will be accessible as the /blog URL
->         The Blog component will be placed in the views directory
->       Acceptance tests:  
->         Blog link added in the navigation bar. 
->         Access to Blog feature successful when the link is clicked
->         The Blog component is in the views directory
-
+s
 > ## Step 2: Implement the [User Story] Setup the layout of the Blog feature
 > 
 >     [User story] Setup the layout of the Blog feature
@@ -35,7 +20,7 @@
 >         The Header section will cover 100% of the screen with
 >         The Left section will cover 75% of the screen width
 >         The Right section will cover 25% of the screen with.
->         The Blog layout will be implemened as a component name BlogLayout
+>         The Blog layout will be implemented as a component name BlogLayout
 >         The three sections will be implemented as components (BlogLayoutHeader, BlogLayoutLeft and BlogLayoutRight). 
 >         All the components needed for the layout will be placed in the components directory
 >       Acceptance tests:  
@@ -65,7 +50,7 @@
 >         The list is well ordered
 >         An item will be implemented as in a BlogPost component
 >         The BlogPost component is placed in the components directory
->         The BlogPost component displays the publication date, tags, title, summary and a 'Read more link'
+>         The BlogPost component displays the publication date, title, summary and a 'Read more link'
 
 ## Step 4: Implement the [User Story] Navigate from the list page to the detail page 
 > 
@@ -85,7 +70,7 @@
 >       Acceptance tests:  
 >         Navigation is possible from list to detail 
 >         The Blog page follows the layout of the Blog feature
->         A Blog post is accessible through the /blog/post/:id url
+>         A Blog post is accessible through the /blog/BlogPostList/:id url
 
 
 ## Step 5: Implement the [User Story] Display the full content of the Blog post 
@@ -104,5 +89,6 @@
 >         The BlogPostAuthor component will display a photo of the author as well as his or her name and company
 >       Acceptance tests:  
 >         The BlogPost page displays the relevant informations
+
 
 

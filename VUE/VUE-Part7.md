@@ -2,6 +2,7 @@
 > ## Objectives:
 > 
 > 1. Understand the interest of writing tests
+> 2. Improve your testing skills
  
 > ## Step 1: Understand the goal for testing. Understand the three levels of tests
 >
@@ -50,19 +51,17 @@
 >     ✓ Message is empty and no message section is displayed when component is created   
 >     ✓ The email field should appear in red when form is submitted with an empty email value   
 >     ✓ The password field should appear in red when form is submitted with an empty password value   
->     ✓ Fields in error should appear in black on focus on the email field   
->     ✓ Fields in error should appear in black on focus on the password field   
+>     ✓ Mandatory fields should appear in black on focus on the email field   
+>     ✓ Mandatory fields in error should appear in black on focus on the password field   
 >     ✓ The message 'Please fill the mandatory fields' is displayed when mandatory fields are not filled
 >     ✓ The 'Please fill mandatory fields' message show disappear on focus on the email field   
 >     ✓ The 'Please fill mandatory fields' message show disappear on focus on the password field   
 >     ✓ A 'clean-api-message' event should be fired on form submit   
 >     ✓ A 'login' event containing form data should be fired when mandatory fields are filled   
->     ✓ A 'Invalid credentials' message should be displayed when login is unsuccessfull   
->     ✓ The 'Invalid credentials' message show disappear on focus on the email field   
->     ✓ The 'Invalid credentials' message show disappear on focus on the password field   
+>     ✓ A message is displayed on api call failure
 
 
-> ## Step 6: Write a complete Test suite for the Register component
+> ## Step 6: Write the complete Test suite for the Register component
 1. List the Unit tests you will implement
 2. Implement the **Register** component **Test suite** 
 
