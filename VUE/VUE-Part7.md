@@ -36,7 +36,8 @@
 > 2. Under the **tests** directory create a directory called **unit**
 > 3. In the **tests/unit** directory, create a file called **Login.spec.js**
 >     - This file will contain all the **Unit tests** for the **Login** component
-> 4. Test that the component name is **login**
+> 4. Write the followwing test:  
+>     ✓ The Login component name should  be login  
 > 5. Run **npm  run test**
 
 > ## Step 5: Write the complete Test suite of the Login component
