@@ -22,7 +22,7 @@
 > ## Step 3: Using Vue Test Utils with Jest (recommended)
 
 > 1. Install **Vue Test Utils with Jest**: npm install @vue/cli-plugin-unit-jest @vue/test-utils
-> 2. At the root of the project create a file called **jest.config.js**
+> 2. At the root of the project create a file called **jest.config.js**  
 >     module.exports = {
 >       preset: '@vue/cli-plugin-unit-jest'
 >     }
