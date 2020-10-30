@@ -27,7 +27,7 @@
 >       preset: '@vue/cli-plugin-unit-jest'
 >     }
 > 3. In package.json, in the scripts section add a line:
->      "test": "jest"
+>      **"test": "jest"**
 > 4. Run the command: **npm run test**
 >     It should respond: No tests found, exiting with code 1
 
