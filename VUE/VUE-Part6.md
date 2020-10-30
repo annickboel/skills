@@ -22,21 +22,26 @@
 >         The footer section will cover 100% of the screen with and 20% of the screen height
 >         The three sections will be implemented as components (BaseLayoutHeader, BaseLayoutContent and BaseLayoutFooter). 
 >         The Register page will display:
->         - The title of the page in the header section. This title must not be displated
->         - A Register form where the user can enter the following informations: firstName, lastName, email, password, password confirmation.
+>         - The title of the page in the header section. This title must not be displayed
+>         - A Register form where the user can enter the following informations: firstName, lastName, email, password, password confirmation, function, company
 >         - A button called Register
 >         The firstName, lastName, email, password and password confirmation fields are mandatory
->         A error message will be displayed if:
->         - Mandatory fields are not filled
->         - Passwords are not identical
->         On click on the Register button the user profile will be logged on the console  
+>         An error message will be displayed on form submit if: 
+>         - Mandatory fields are not filled (empty mandatory fields should appear in red) 
+>         - Passwords are not identical  
+>         The error message disappears on focus in a mandatory field  
+>         Fields in error will appear in black on focus on any mandatory field 
+>         On form submit the user profile will contain form data  
 >       Acceptance tests:  
 >         A Register Link is added in the navigation bar
->         On click on the Register Link, the user is redirected to the Register page
+>         On click on the Register Link, the user is redirected to the Register page  
 >         The Register page follows the base layout of the site
 >         The Register form displays the relevant information
->         An error message is displayed if the mandatory fields are not supplied or if password are not identical
->         On click on the Register button the profile is logged to the console.
+>         An error message is displayed when mandatory fields are not filled on form submit  
+>         Empty mandatory fields appear in red on form submit
+>         The error message disappears on focus in any mandatory field
+>         Fields in error appear in black on focus in any mandatory field
+>         On form submit the user profile contains form data
 
 
  > ## Step 2: [User Story] Login UI setup
@@ -56,16 +61,21 @@
 >         - The title of the page in the header section. This title must not be displayed
 >         - A Login form where the user an enter the following informations: email and password.
 >         - A button called Login
->         The email and passwords fields are mandatory
+>         The email and password fields are mandatory
 >         A error message will be displayed if:
->         - Mandatory fields are not filled
->         On click on the Login button the user will be logged on the console 
+>         - Mandatory fields are not filled (empty mandatory fields should appear in red) 
+>         The error message disappears on focus in any mandatory field  
+>         Fields in error will appear in black on focus in any mandatory field 
+>         On form submit the usercontains form data  
 >       Acceptance tests:  
 >         A Login Link is added in the navigation bar
 >         On click on the Login Link, the user is redirected to the Login page
 >         The Login page follows the base layout of the site
 >         The Login form displays the relevant information
->         An error message is displayed if the mandatory fields are not supplied
+>         An error message is displayed if the mandatory fields are not filled on form submit
+>         Empty mandatory fields appear in red on form submit
+>         The error message disappears on focus in any mandatory field
+>         Fields in error appear in black on focus in any mandatory field
 >         On click on the Login button the user is logged to the console.
 
 > ## Step 3: Setup the User API
