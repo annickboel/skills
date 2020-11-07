@@ -7,7 +7,7 @@
 
 
 > ## Step 1: Understand the DevOps approach and the CI/CD cycle
-![DevOps cycle](/devops.png)
+![DevOps cycle](./devops.png)
 
 > 
 > ## Resources
